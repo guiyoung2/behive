@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import url(../style.css);
+.main_area {
+  margin: 120px 10%;
+  width: 80%;
+  height: auto;
+}
+.store_info {
+  height: 450px;
+  display: flex;
+  margin: 0 auto;
+  gap: 100px;
+}
+.kakao_map {
+  width: 50%;
+  height: 400px;
+}
+.main_area {
+  height: auto;
+}
+#map {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+.txt_info {
+  width: 55%;
+}
+.txt_info > h3 {
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  color: #181818;
+}
+.txt_info > p {
+  font-size: 18px;
+  color: #232323;
+}
+.behive {
+  margin-top: 30px;
+}
+.ncnt {
+  margin-top: 30px;
+}
+.lang {
+  display: flex;
+  gap: 10px;
+}
+.lang > li {
+  width: 60px;
+  height: 20px;
+  background: #fdc;
+}
+.lang > li > a {
+  display: block;
+  font-size: 16px;
+  width: 60px;
+  height: 20px;
+  text-align: right;
+}
+.lang > li:first-child {
+  background: url("../image/kr.png") no-repeat left center;
+  background-size: 30px 20px;
+}
+.lang > li:last-child {
+  background: url("../image/en.png") no-repeat left center;
+  background-size: 30px 20px;
+}
+.lang > li:last-child > a {
+  width: 55px;
+}
+.txt_gap {
+  margin-left: 20px;
+}
+.bold {
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import url(../style.css);
+
+.main_top {
+  margin: 0 10%;
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+.main_top {
+  margin: 50px 0 70px;
+  padding: 0 10%;
+  height: 300px;
+}
+/* .top_lf { */
+/* justify-content: center; */
+/* } */
+.main_top > h2 {
+  width: 300px;
+  height: 90px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 90px;
+  text-align: center;
+  background: url("../image/begie_bg.png") no-repeat center center;
+  background-size: 220px 50px;
+}
+.top_area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* gap: 20px; */
+}
+.top_lf > img {
+  width: 200px;
+  height: 200px;
+  transform: rotate(-3deg);
+  margin: 0 50px;
+}
+.top_rt {
+  min-width: 762px;
+  margin-right: 5%;
+}
+.top_rt > .info_txt {
+  min-width: 762px;
+}
+.top_rt > .info_txt > p {
+  min-width: 762px;
+  line-height: 2em;
+  font-size: 16px;
+  color: #555;
+  background: #f8f6f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+.main_bt {
+  padding: 0 10%;
+  margin-top: 170px;
+  margin-bottom: 150px;
+}
+.photo > h3 {
+  font-size: 28px;
+  font-weight: bold;
+  /* margin: 0 0 0 40px; */
+  color: #222;
+  background: url("../image/begie_bg.png") no-repeat;
+  background-size: cover;
+  width: 100px;
+  text-align: center;
+}
+.main_bt > .photo_area {
+  height: auto;
+  width: 100%;
+  /* background: #dfc; */
+  display: flex;
+  flex-direction: column;
+}
+.photo_area > .photo_top,
+.photo_area > .photo_bt {
+  width: 100%;
+  height: auto;
+  /* background: #ddc; */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex: 0 0;
+}
+
+.photo_top > .tt,
+.photo_bt > .tt {
+  width: 320px;
+  height: auto;
+  /* background: #cfa; */
+}
+.tt img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(0.9);
+  transition: all 0.2s;
+}
+.tt img:hover {
+  transform: scale(1);
+}
+/* .photo1 {
+  width: 100%;
+  height: 100%;
+  background: url("image/be1.jpg") no-repeat;
+  background-size: cover;
+} */
+/* .photo2 {
+  width: 100%;
+  height: 100%;
+  background: url("image/be2.jpg") no-repeat;
+  background-size: 100%;
+}
+.photo3 {
+  width: 100%;
+  height: 100%;
+  background: url("image/be3.jpg") no-repeat;
+  background-size: cover;
+}
+.photo4 {
+  width: 100%;
+  height: 100%;
+  background: url("image/be4.jpg") no-repeat;
+  background-size: cover;
+}
+.photo5 {
+  width: 100%;
+  height: 100%;
+  background: url("image/be5.jpg") no-repeat;
+  background-size: contain;
+} */

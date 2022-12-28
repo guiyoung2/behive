@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import url(style.css);
+
+.main_area {
+  margin: 120px 10% 200px;
+}
+.login_box {
+  /* margin: 0 auto; */
+  text-align: center;
+}
+.login_box > h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#id,
+#password {
+  height: 40px;
+  width: 300px;
+  border: 0;
+  border-bottom: 2px solid #111;
+  text-indent: 30px;
+  outline: none;
+}
+#password {
+  margin-bottom: 30px;
+}
+.login_click {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid #111;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.forgot_area {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.forgot_area > div > a {
+  display: block;
+  color: #555;
+}
+.forgot_area > div:hover > a {
+  color: #000;
+}
+.forgot_area > div > a .account > a {
+  font-size: 20px;
+  font-weight: 300;
+}

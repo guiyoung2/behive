@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.main_top,
+.main_bt {
+  margin: 0 10%;
+}
+.main_brand_info {
+  float: right;
+  margin-top: 10%;
+  margin-right: 30px;
+}
+.main_brand_info > ul > li {
+  font-size: 24px;
+}
+.main_brand_info > ul {
+  display: flex;
+}

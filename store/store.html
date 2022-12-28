@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEHIVE</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="../js/main.js"></script>
+    <link rel="stylesheet" href="store.css" />
+  </head>
+  <body>
+    <header id="main_header">
+      <div class="header_top">
+        <h2><a href="../index.html">B E H I V E</a></h2>
+        <div class="tnb">
+          <ul class="login_area">
+            <li class="login"><a href="../sub/login.html">Login</a></li>
+            <li class="my_page"><a href="../sub/mypage.html">My page</a></li>
+          </ul>
+        </div>
+      </div>
+      <nav class="gnb">
+        <ul>
+          <li class="menu">
+            <a href="#">Our Shop</a>
+            <div class="sub">
+              <ul>
+                <li><a href="../our_shop/shop_behive.html">B E H I V E</a></li>
+                <li><a href="../our_shop/shop_ncnt.html">N˚CONNECT</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="../brand/brand.html">Brand</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="../notice/notice.html">Notice</a></li>
+          <li><a href="../qa/Q&A.html">Q&A</a></li>
+          <li><a href="../ship/ship.html">Ship</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main_area">
+      <div class="store_info">
+        <div class="txt_info info_kr">
+          <ul class="lang">
+            <li class="btn_kr"><a href="#">Kor</a></li>
+            <li class="btn_en"><a href="#">En</a></li>
+          </ul>
+          <h3 class="time">운영시간</h3>
+          <p>비하이브 - 매일 : 12:00 ~ 22:30 엔컨넥트 - 매일 : 13:00 ~ 22:30</p>
+          <h3 class="behive">비하이브</h3>
+          <p>경기 안산시 단원구 고잔로 102 대지스타타워 1층</p>
+          <p>스마스콜: 0507-1406-3774</p>
+          <p>매장 : 070-4231-3774</p>
+          <h3 class="ncnt">엔커넥트</h3>
+          <p>경기 안산시 단원구 고잔동 539-2번지 대동조이월드3층 306호</p>
+          <p>매장 : 031-414-3770</p>
+        </div>
+
+        <div class="txt_info info_en">
+          <ul class="lang">
+            <li class="btn_kr"><a href="#">Kor</a></li>
+            <li class="btn_en"><a href="#">En</a></li>
+          </ul>
+          <h3 class="time">Store Hour</h3>
+          <p class="bold">Always Open</p>
+          <p>
+            BEHIVE : 12:00 ~ 22:30
+            <span class="txt_gap">N˚CONNECT : 13:00 ~ 22:30</span>
+          </p>
+          <h3 class="behive">BEHIVE</h3>
+          <p>
+            102, Gojan-ro, Danwon-gu, Ansan-si, Gyeonggi-do, Republic of Korea
+          </p>
+          <p>Smart call: 0507-1406-3774</p>
+          <p>Shop : 070-4231-3774</p>
+          <h3 class="ncnt">N˚CONNECT</h3>
+          <p>
+            108, Gojan-ro, Danwon-gu, Ansan-si, Gyeonggi-do, Republic of Korea
+          </p>
+          <p>Shop : 031-414-3770</p>
+        </div>
+        <div class="kakao_map">
+          <div id="map"></div>
+        </div>
+      </div>
+    </section>
+    <footer id="main_footer">
+      <h2><img src="../image/footer_logo.png" alt="footer_logo" /></h2>
+      <address>
+        <div class="ft_info1">
+          <p>N˚CONNECT & BEHIVE</p>
+          <p>CONTACT E-MAIL - ncproduct@naver.com</p>
+        </div>
+        <div class="ft_info2">
+          <div class="info2_l">
+            <p>BEHIVE - 070.4231.3774</p>
+            <p>경기도 안산시 단원구 고잔로102 대지스타타워1층</p>
+          </div>
+          <div class="info2_r">
+            <p>N˚CONNECT - 031.414.3770</p>
+            <p>경기도 안산시 단원구 고잔동 539-2번지 대동조이월드3층 306호</p>
+          </div>
+        </div>
+      </address>
+      <div class="sns_area"><a href="#">nconnect_behive</a></div>
+    </footer>
+    <script>
+      $(function () {
+        $(".info_en").hide();
+        $(".btn_kr").on("click", function () {
+          $(".info_kr").show();
+          $(".info_en").hide();
+        });
+        $(".btn_en").on("click", function () {
+          $(".info_en").show();
+          $(".info_kr").hide();
+        });
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5a05de484e4e3aa995ac6d03900e2028"
+    ></script>
+    <script>
+      var mapContainer = document.getElementById("map"), // 지도를 표시할 div
+        mapOption = {
+          center: new kakao.maps.LatLng(37.3187208, 126.837607), // 지도의 중심좌표
+          // 33.450701, 126.570667
+          // 126.837607, 37.3187208
+          // 37.318701, 126.837614
+          level: 3, // 지도의 확대 레벨
+        };
+
+      // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+      var map = new kakao.maps.Map(mapContainer, mapOption);
+      // 마커가 표시될 위치입니다
+      var markerPosition = new kakao.maps.LatLng(37.3187208, 126.837607);
+
+      // 마커를 생성합니다
+      var marker = new kakao.maps.Marker({
+        position: markerPosition,
+      });
+
+      // 마커가 지도 위에 표시되도록 설정합니다
+      marker.setMap(map);
+      // 확대 축소 컨트롤러
+      var zoomControl = new kakao.maps.ZoomControl();
+      map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+    </script>
+  </body>
+</html>

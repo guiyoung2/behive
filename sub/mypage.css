@@ -1,0 +1,89 @@
+@charset "uft-8";
+@import url(style.css);
+
+.my_page_area,
+.my_qa {
+  margin: 100px 15%;
+}
+.my_page_area {
+  margin-bottom: 70px;
+}
+.my_page_area > h2,
+.my_qa > h2 {
+  font-size: 28px;
+  font-weight: bold;
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  background: url("../image/begie_bg2.png") no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.qa_title {
+  font-size: 24px;
+}
+.my_info > table {
+  width: 85%;
+  margin: 0 auto;
+}
+.my_info > table td {
+  color: #333;
+}
+.my_page_area > .my_info > table > tbody > tr {
+  height: 60px;
+}
+.my_page_area > .my_info > table > tbody > tr > th {
+  border-bottom: 2px solid #eee8aa;
+}
+.my_page_area > .my_info > table > tbody > tr > td > a {
+  display: block;
+  /* border: 1px solid #111; */
+  font-weight: 400;
+  color: #111;
+  text-align: center;
+  border-radius: 25px;
+  background: #fff4e0;
+}
+.my_qa > .my_info > table > tbody > tr {
+  height: 40px;
+}
+.my_page_area > .my_info > table > tbody > tr > td:nth-of-type(1) {
+  text-indent: 20px;
+}
+.my_qa > .my_info > table > tbody > tr:last-child {
+  border-bottom: 2px solid #111;
+}
+.my_qa > .my_info > table > tbody > tr:first-child {
+  border-bottom: 2px solid #111;
+}
+.my_qa > .my_info > table > tbody > tr > th:first-child {
+  text-align: left;
+  padding-left: 80px;
+}
+.my_qa > .my_info > table > tbody > tr > td:first-child {
+  text-align-last: left;
+  padding-left: 80px;
+}
+.my_qa > .my_info > table > tbody > tr > td > a {
+  display: block;
+  color: #333;
+}
+.my_qa > .my_info > table > tbody > tr > td {
+  text-align: center;
+}
+tfoot {
+  height: 60px;
+}
+tfoot > tr > td {
+  text-align: center;
+}
+tfoot > tr > td > a {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  margin: 0 auto;
+}

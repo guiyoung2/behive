@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import url(../style.css);
+
+.main_top {
+  margin: 100px 15% 30px;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  position: relative;
+}
+.main_top > h2 {
+  font-size: 28px;
+  font-weight: bold;
+  width: 200px;
+  height: 60px;
+  background: url("../image/begie_bg.png") no-repeat;
+  background-size: 200px 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.main_top > .notice_sub {
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 24px;
+  right: 0;
+  bottom: -10px;
+  background: url("../image/begie_bg2.png") no-repeat;
+  background-size: cover;
+  color: #222;
+}
+.main_top > .notice_sub > a {
+  display: block;
+}
+table {
+  width: 70%;
+  margin: 0 15% 30px;
+  border-bottom: 1px solid #000;
+}
+tr {
+  height: 40px;
+}
+tr > th:nth-child(1) {
+  width: 15%;
+}
+tr > th:nth-child(2) {
+  width: 70%;
+}
+tr > th:nth-child(3) {
+  width: 15%;
+}
+th,
+td {
+  text-align: center;
+  color: #333;
+}
+.line_tr {
+  border-bottom: 1px solid #000;
+}
+.notice_num {
+  margin: 0 10% 100px;
+}
+.page_num {
+  margin: 0 auto;
+  width: 50px;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+}
