@@ -59,6 +59,7 @@
       </div>
     </section>
     <section class="main_bt"></section>
+    <section class="instafeed"></section>
     <footer id="main_footer">
       <h2><img src="image/footer_logo.png" alt="footer_logo" /></h2>
       <address>
@@ -82,5 +83,15 @@
       <div class="sns_area"><a href="#">nconnect_behive</a></div>
       <!-- before:: 사용하여 인스타 로고 넣기 -->
     </footer>
+    <script src="js/instafeed.min.js"></script>
+    <script>
+      var feed = new Instafeed({
+        accessToken:
+          "IGQVJWMVdKV0dzR0YxQ0QwaVRpSkp1eDNRYlVQdHlWekdXUnd1VXFXS29nQlh4X3BSX1pWSkMxV0ZAvaGFnRVhIUVppY1FMNGFHNERqZA1dZAYUlndlhWUzFTNFVfZA3JUelpZAamUta2xySzFTMmVyOWVKZAQZDZD",
+        // 이 뒤에 다양한 키를 추가하여 커스터마이징 가능
+        // limit:4, 불러오고자 하느 인스타그램 게시물을 4개로 제한
+      });
+      feed.run();
+    </script>
   </body>
 </html>
