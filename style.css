@@ -57,21 +57,21 @@ address {
 }
 header {
   width: 100%;
-  height: 120px;
+  height: 140px;
   border-bottom: 2px solid #000;
   box-sizing: border-box;
 }
 .header_top {
   width: 100%;
-  height: 70px;
+  height: 90px;
   border-bottom: 2px solid #000;
   box-sizing: border-box;
   position: relative;
 }
 .header_top > h2 {
-  height: 70px;
+  height: 90px;
   width: 100%;
-  line-height: 70px;
+  line-height: 90px;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -81,8 +81,11 @@ header {
   /* text-shadow: 0 0 20px #ff6; */
   /* color: lightyellow; */
   color: #444;
-  text-shadow: 0 0 10px lightyellow, 0 0 10px yellow, 0 0 10px #994c00,
-    0 0 10px orange;
+  /* text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 13px rgb(252, 252, 147),
+    0 0 13px rgb(252, 252, 147), 0 0 13px rgb(252, 252, 147),
+    0 0 13px rgb(252, 252, 147); */
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #ffe604, 0 0 31px #fee829,
+    0 0 42px #fbec66;
 
   /* yellow; */
   /* --color2: orange; */

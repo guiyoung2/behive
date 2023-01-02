@@ -6,10 +6,10 @@
   display: flex;
   height: 100px;
   justify-content: space-between;
-  position: relative; 
+  position: relative;
 }
 .main_top > h2 {
-  font-size: 28px; 
+  font-size: 28px;
   font-weight: bold;
   width: 200px;
   height: 60px;
@@ -41,6 +41,9 @@ table {
 }
 tr {
   height: 40px;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
 }
 tr > th:nth-child(1) {
   width: 15%;
