@@ -51,3 +51,29 @@
   font-size: 20px;
   font-weight: 300;
 }
+@media screen and (max-width: 641px) {
+  .login_box > h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  #id,
+  #password {
+    height: 30px;
+    width: 250px;
+  }
+  #password {
+    margin-bottom: 30px;
+  }
+  .login_click {
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .forgot_area {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  .forgot_area > div > a .account > a {
+    font-size: 14px;
+  }
+}

@@ -9,7 +9,8 @@
   height: 450px;
   display: flex;
   margin: 0 auto;
-  gap: 100px;
+  justify-content: space-around;
+  gap: 20px;
 }
 .kakao_map {
   width: 50%;
@@ -26,13 +27,13 @@
 .txt_info {
   width: 55%;
 }
-.txt_info > h3 {
+.txt_info h3 {
   height: 50px;
   font-size: 24px;
   line-height: 50px;
   color: #181818;
 }
-.txt_info > p {
+.txt_info p {
   font-size: 18px;
   color: #232323;
 }
@@ -75,4 +76,114 @@
 .bold {
   font-weight: bold;
   font-size: 20px;
+}
+@media screen and (max-width: 1241px) and (min-width: 941px) {
+  .txt_info h3 {
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .txt_info p {
+    font-size: 14px;
+  }
+  .kakao_map {
+    height: 320px;
+  }
+  #map {
+    height: 320px;
+  }
+  .store_info {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 940px) and (min-width: 741px) {
+  .txt_info h3 {
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .txt_info p {
+    font-size: 11px;
+  }
+  .kakao_map {
+    height: 280px;
+  }
+  #map {
+    height: 280px;
+  }
+  .store_info {
+    height: 320px;
+  }
+  .txt_br {
+    display: block;
+  }
+  .mt {
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .txt_info {
+    width: 100%;
+  }
+  .txt_info h3 {
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .txt_info p {
+    font-size: 10px;
+  }
+  .store_info {
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .time {
+    width: 100% !important;
+  }
+  .be,
+  .nc {
+    width: 100% !important;
+  }
+  .mobile_d {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .kakao_map {
+    margin-top: 20px;
+    width: 100%;
+    height: 280px;
+  }
+  #map {
+    width: 100%;
+    height: 280px;
+  }
+  .lang > li {
+    width: 40px;
+    height: 15px;
+    background: #fdc;
+  }
+  .lang > li > a {
+    display: block;
+    font-size: 12px;
+    width: 40px;
+    height: 15px;
+    text-align: right;
+  }
+  .lang > li:first-child {
+    background: url("../image/kr.png") no-repeat left center;
+    background-size: 20px 15px;
+  }
+  .lang > li:last-child {
+    background: url("../image/en.png") no-repeat left center;
+    background-size: 20px 15px;
+  }
+  .lang > li:last-child > a {
+    width: 35px;
+  }
+  .behive,
+  .ncnt {
+    margin-top: 15px;
+  }
 }

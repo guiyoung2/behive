@@ -14,7 +14,7 @@
 /* .top_lf { */
 /* justify-content: center; */
 /* } */
-.main_top > h2 {
+.main_top > .top_area > .top_lf > h2 {
   width: 300px;
   height: 90px;
   font-size: 28px;
@@ -26,8 +26,10 @@
 }
 .top_area {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
   margin-top: 10px;
+  height: 290px;
   /* gap: 20px; */
 }
 .top_lf > img {
@@ -39,6 +41,8 @@
 .top_rt {
   min-width: 762px;
   margin-right: 5%;
+  margin-top: 90px;
+  height: 200px;
 }
 .top_rt > .info_txt {
   min-width: 762px;
