@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BEHIVE</title>
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="main_style.css" />
@@ -41,25 +42,39 @@
       </nav>
     </header>
     <section class="main_top">
+      <div class="main_img1"></div>
+      <div class="main_img2"></div>
+      <div class="main_img3"></div>
+      <div class="main_img4"></div>
+    </section>
+    <section class="brand_list">
       <div class="main_brand_info">
-        <h3>The Newest Brand</h3>
-        <ul class="newest_brand">
-          <li>Deho</li>
-          <li>Satur</li>
-          <li>Insilence_women</li>
-          <li>Wildbricks</li>
-        </ul>
-        <h3>Best Brand</h3>
-        <ul class="best_brand">
-          <li>Insilence</li>
-          <li>After pray</li>
-          <li>Satur</li>
-          <li>Beslow</li>
-        </ul>
+        <div class="newest">
+          <h3>The Newest Brand</h3>
+          <ul class="newest_brand">
+            <li>Deho</li>
+            <li>Satur</li>
+            <li>Insilence_women</li>
+            <li>Wildbricks</li>
+          </ul>
+        </div>
+        <div class="best">
+          <h3>Best Brand</h3>
+          <ul class="best_brand">
+            <li>Insilence</li>
+            <li>After pray</li>
+            <li>Satur</li>
+            <li>Beslow</li>
+          </ul>
+        </div>
       </div>
     </section>
-    <section class="main_bt"></section>
-    <section class="instafeed"></section>
+    <section class="main_bt">
+      <h3>Instagram New Post</h3>
+      <p>@nconnect_behive</p>
+    </section>
+    <section id="instagram_feed"></section>
+    <div class="click">more feed</div>
     <footer id="main_footer">
       <h2><img src="image/footer_logo.png" alt="footer_logo" /></h2>
       <address>
@@ -83,15 +98,31 @@
       <div class="sns_area"><a href="#">nconnect_behive</a></div>
       <!-- before:: 사용하여 인스타 로고 넣기 -->
     </footer>
-    <!-- <script src="js/instafeed.min.js"></script> -->
-    <script src="js/instafeed.js"></script>
-    <script>
-      var feed = new Instafeed({
-        accessToken:
-          "IGQVJWMVdKV0dzR0YxQ0QwaVRpSkp1eDNRYlVQdHlWekdXUnd1VXFXS29nQlh4X3BSX1pWSkMxV0ZAvaGFnRVhIUVppY1FMNGFHNERqZA1dZAYUlndlhWUzFTNFVfZA3JUelpZAamUta2xySzFTMmVyOWVKZAQZDZD",
-        // 이 뒤에 다양한 키를 추가하여 커스터마이징 가능
-        // limit:4, 불러오고자 하느 인스타그램 게시물을 4개로 제한
+    <script type="text/javascript" src="./js/instafeed.min.js"></script>
+    <script type="text/javascript">
+      let n = 5;
+      let ev = document.querySelector(".click");
+      ev.addEventListener("click", function () {
+        n += 5;
+        console.log(n);
+        feed.run();
       });
+
+      const feed = new Instafeed({
+        accessToken:
+          "IGQVJVYXlNMGZALNzJJd1BzQUpxX29hQk1rUUd0cElsX0xRck5qTDdOaXE2dlJTWGE0V3BkamVvUWRFc0dMbkxjSmJjOVV2a1hlMFVYbXNpYXdBS1lJX1d1UmowWlNEN29aR3A3Tzdn",
+        target: "instagram_feed",
+        template:
+          '<li class="item">' +
+          '<a href="{{link}}">' +
+          '<img title="{{caption}}" src="{{image}}"/>' +
+          //   "<h3>{{caption}}</h3>" +
+          //   "<div>{{username}}</div>" +
+          "</a>" +
+          "</li>",
+        limit: n,
+      });
+
       feed.run();
     </script>
   </body>

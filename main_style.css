@@ -1,17 +1,118 @@
 @charset "utf-8";
 
-.main_top,
-.main_bt {
+.main_top {
   margin: 0 10%;
+  height: 700px;
 }
 .main_brand_info {
-  float: right;
-  margin-top: 10%;
-  margin-right: 30px;
-}
-.main_brand_info > ul > li {
-  font-size: 24px;
-}
-.main_brand_info > ul {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.newest,
+.best {
+  width: 47%;
+}
+.newest > h3,
+.best > h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.newset > {
+  margin-right: 6%;
+}
+.main_top {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.main_top > div {
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.main_img1,
+.main_img3 {
+  width: 40%;
+  height: 50%;
+  background: #ddf;
+}
+.main_img2,
+.main_img4 {
+  width: 60%;
+  height: 50%;
+  background: #ffd;
+}
+
+.main_img1 {
+  background: url("./image/main1.jpg") no-repeat 70% 60%;
+  background-size: 80%;
+}
+.main_img2 {
+  background: url("./image/main2.jpg") no-repeat center center;
+  background-size: 75%;
+}
+.main_img3 {
+  background: url("./image/main3.jpg") no-repeat 65% 30%;
+  background-size: 55%;
+}
+.main_img4 {
+  background: url("./image/main4.jpg") no-repeat 40% 40%;
+  background-size: 58%;
+}
+.brand_list {
+  margin: 0 12% 50px;
+  height: 100px;
+}
+.main_brand_info ul > li {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.main_brand_info ul {
+  display: flex;
+}
+.main_bt {
+  margin: 0 10% 20px;
+}
+.main_bt > h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.main_bt > p {
+  font-size: 20px;
+  color: #888;
+}
+#instagram_feed {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+#instagram_feed .item {
+  /* width: 23%; */
+  list-style: none;
+  width: 180px;
+  height: 180px;
+  /* height: auto; */
+}
+#instagram_feed .item img {
+  /* height: 100%; */
+  /* width: 100%; */
+  width: 180px;
+  height: 180px;
+  background-size: cover;
+}
+.click {
+  border: 1px solid #000;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  display: block;
+  background: #dfc;
+  margin: 10px auto;
+  cursor: pointer;
+  color: #333;
 }
