@@ -45,19 +45,20 @@
 
 .main_img1 {
   background: url("./image/main1.jpg") no-repeat 70% 60%;
-  background-size: 80%;
+  background-size: contain;
 }
 .main_img2 {
   background: url("./image/main2.jpg") no-repeat center center;
-  background-size: 75%;
+  background-size: contain;
+  /* object-fit: cover; */
 }
 .main_img3 {
   background: url("./image/main3.jpg") no-repeat 65% 30%;
-  background-size: 55%;
+  background-size: contain;
 }
 .main_img4 {
   background: url("./image/main4.jpg") no-repeat 40% 40%;
-  background-size: 58%;
+  background-size: contain;
 }
 .brand_list {
   margin: 0 12% 50px;
