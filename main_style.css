@@ -135,9 +135,13 @@
   font-size: 20px;
   color: #888;
 }
+.insta {
+  width: 100%;
+  background: rgb(241, 241, 230);
+}
 #instagram_feed {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -157,6 +161,8 @@
   width: 180px;
   height: 180px;
   background-size: cover;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 .click_box {
   width: 100%;

@@ -11,19 +11,24 @@
   gap: 15%;
 }
 .main_area > .ship_lf {
-  /* width: 65%; */
+  width: 70%;
   height: 540px;
   margin: 80px 0;
 }
 .main_area > .ship_rt {
-  /* width: 30%; */
+  width: 30%;
   height: 700px;
+  margin-top: 20px;
 }
 .ship_rt > div {
-  height: 340px;
+  width: 100%;
+  /* height: 340px; */
+  height: auto;
 }
 .ship_rt > div > img {
-  height: 340px;
+  width: 100%;
+  /* height: 340px; */
+  height: auto;
 }
 .ship_rt > div:first-child {
   margin-bottom: 20px;
@@ -40,7 +45,6 @@
   margin-left: 50px;
 }
 .main_area > .ship_lf > .ship_txt {
-  width: 710px;
   background: #f8f6f0;
   padding: 3%;
   margin-top: 40px;
@@ -54,48 +58,98 @@
 .ship_txt > p:first-child {
   margin-top: 0;
 }
-/* .ship_img1 {
-  position: absolute;
-  top: -180px;
-  right: -400px;
-}
-.ship_img1 > .img_box1 {
-  position: relative;
-}
-.ship1,
-.ship2 {
-  transform: scale(0.65);
-}
-.tape1 {
-  display: block;
-  position: absolute;
-  top: 80px;
-  right: 100px;
-  width: 90px;
-  height: 30px;
-  background: url("../image/begie_bg.png") no-repeat;
-  background-size: 90px 30px;
-  transform: rotate(240deg);
-  opacity: 0.4;
+
+@media screen and (max-width: 1241px) and (min-width: 741px) {
+  .main_area {
+    display: flex;
+    flex-direction: column !important;
+    height: auto !important;
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+  .main_area > .ship_lf {
+    width: 100% !important;
+    height: auto !important;
+    margin: 80px 0 20px;
+  }
+  .main_area > .ship_rt {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 20px;
+    display: flex;
+  }
+  .ship_rt div {
+    width: 50%;
+    height: 300px;
+  }
+  .ship_rt > div > img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .ship_img2 {
+    margin-top: 40px;
+  }
+  .main_area > .ship_lf > h2 {
+    width: 100px;
+    height: 30px;
+    font-size: 24px;
+    background-size: 100px 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .main_area > .ship_lf > .ship_txt {
+    font-size: 14px;
+  }
 }
 
-.ship_img2 {
-  position: absolute;
-  top: 150px;
-  right: -490px;
+@media screen and (max-width: 740px) {
+  .main_area {
+    display: flex;
+    flex-direction: column !important;
+    height: auto !important;
+    margin-bottom: 40px;
+    padding-top: 0;
+  }
+  .main_area > .ship_lf {
+    width: 100% !important;
+    height: auto !important;
+    margin: 80px 0 20px;
+  }
+  .main_area > .ship_rt {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .ship_rt div {
+    width: 40%;
+    height: auto;
+  }
+  .ship_rt > div > img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .ship_img1 {
+    margin-bottom: 70px;
+  }
+  .ship_img2 {
+    margin-top: 70px;
+  }
+  .main_area > .ship_lf > h2 {
+    width: 100px;
+    height: 30px;
+    font-size: 24px;
+    background-size: 100px 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+  }
+  .main_area > .ship_lf > .ship_txt {
+    font-size: 10px;
+  }
 }
-.ship_img2 > .img_box2 {
-  position: relative;
-}
-.tape2 {
-  display: block;
-  position: absolute;
-  top: 80px;
-  right: 200px;
-  width: 90px;
-  height: 30px;
-  background: url("../image/begie_bg.png") no-repeat;
-  background-size: 90px 30px;
-  transform: rotate(120deg);
-  opacity: 0.4;
-} */

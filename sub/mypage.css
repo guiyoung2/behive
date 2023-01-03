@@ -28,6 +28,13 @@
   width: 85%;
   margin: 0 auto;
 }
+tbody > tr > th {
+  width: 15%;
+}
+tbody > tr > td {
+  padding: 4%;
+  width: 66%;
+}
 .my_info > table td {
   color: #333;
 }
@@ -46,11 +53,14 @@
   border-radius: 25px;
   background: #fff4e0;
 }
+.change {
+  padding: 0;
+}
 .my_qa > .my_info > table > tbody > tr {
   height: 40px;
 }
 .my_page_area > .my_info > table > tbody > tr > td:nth-of-type(1) {
-  text-indent: 20px;
+  /* text-indent: 20px; */
 }
 .my_qa > .my_info > table > tbody > tr:last-child {
   border-bottom: 2px solid #111;
@@ -86,4 +96,28 @@ tfoot > tr > td > a {
   line-height: 20px;
   font-size: 16px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 741px) {
+  tr,
+  th {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  tr,
+  th {
+    font-size: 10px;
+  }
+  tbody > tr > th {
+    width: 15%;
+  }
+  tbody > tr > td {
+    padding: 4%;
+    width: 66%;
+  }
+  .my_page_area > .my_info > table > tbody > tr > td:nth-of-type(1) {
+    text-indent: 0px;
+  }
 }
