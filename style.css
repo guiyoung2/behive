@@ -166,12 +166,26 @@ header {
 .sub > ul > li:last-child > a {
   border-bottom: 2px solid #555;
 }
-@media screen and (max-width: 1041px) and (min-width: 641px) {
+@media screen and (max-width: 1041px) and (min-width: 741px) {
   .header_top > h2 {
     font-size: 36px !important;
   }
   #main_header > .gnb > ul > li > a {
     font-size: 16px !important;
+  }
+  .tnb > .login_area > li > a {
+    font-size: 16px;
+  }
+  .header_top > .tnb {
+    top: 15px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .header_top > h2 {
+    font-size: 28px !important;
+  }
+  #main_header > .gnb > ul > li > a {
+    /* font-size: 12px !important; */
   }
 }
 @media screen and (max-width: 1241px) and (min-width: 801px) {

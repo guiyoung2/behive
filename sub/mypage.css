@@ -98,7 +98,18 @@ tfoot > tr > td > a {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1100px) and (min-width: 741px) {
+@media screen and (max-width: 1200px) and (min-width: 741px) {
+  .my_page_area > h2,
+  .my_qa > h2 {
+    font-size: 24px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+  .qa_title {
+    font-size: 20px;
+  }
   tr,
   th {
     font-size: 14px;
@@ -106,6 +117,17 @@ tfoot > tr > td > a {
 }
 
 @media screen and (max-width: 740px) {
+  .my_page_area > h2,
+  .my_qa > h2 {
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .qa_title {
+    font-size: 14px;
+  }
   tr,
   th {
     font-size: 10px;
