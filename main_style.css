@@ -27,7 +27,7 @@
 }
 .main_top {
   /* margin: 50px 10% 0 25%; */
-  margin: 50px 10% 0;
+  margin: 80px 10% 0;
   height: 600px;
   display: flex;
   justify-content: space-around;
@@ -185,10 +185,11 @@
   box-sizing: border-box;
   /* background: rgb(241, 241, 230); */
 }
-@media screen and (max-width: 1151px) and (min-width: 360px) {
+@media screen and (max-width: 1151px) and (min-width: 701px) {
   .main_top {
     flex-direction: column !important;
     margin-bottom: 80px;
+    /* height: 500px; */
   }
   .main_top > h2 {
     flex: 1;
@@ -211,26 +212,31 @@
     align-items: center;
     gap: 20px;
   }
-  .newest {
+  .newest > h3 {
     /* margin-left: 5%; */
+    /* order: 2; */
+  }
+  .newest > ul {
+    /* order: 1; */
   }
   .best {
     margin-top: 40px;
     /* gap: 8px; */
     display: flex;
-    justify-content: right;
+    /* justify-content: center; */
   }
   .main_brand_info ul > li:last-child {
     margin-right: 0px;
   }
   .best > h3 {
-    order: 2;
+    /* order: 2; */
   }
   .best > ul {
-    order: 1;
+    /* order: 1; */
   }
   .br {
     display: block !important;
+    text-align: right;
   }
   .newest > h3,
   .best > h3 {
@@ -244,5 +250,65 @@
   }
   .main_bt > p {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main_top {
+    flex-direction: column !important;
+    margin-bottom: 80px;
+    height: 500px;
+  }
+  .main_top > h2 {
+    flex: 1;
+  }
+  .img_wrap {
+    margin-top: 0 !important;
+    flex: 5;
+  }
+  .main_brand_info {
+    flex-direction: column !important;
+  }
+  .brand_list {
+    margin-bottom: 100px;
+  }
+  .newest,
+  .best {
+    width: 100% !important;
+    display: block;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+  }
+  .best {
+    margin-top: 40px;
+    /* display: flex; */
+    /* justify-content: right; */
+    display: block !important;
+  }
+  .main_brand_info ul > li:last-child {
+    margin-right: 0px;
+  }
+
+  .br {
+    display: block !important;
+  }
+  .newest > h3,
+  .best > h3 {
+    font-size: 16px !important;
+    /* display: block !important; */
+  }
+  .main_brand_info ul > li {
+    font-size: 12px !important;
+  }
+  .main_bt {
+    padding: 30px 10%;
+  }
+  .main_bt > h3 {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .main_bt > p {
+    font-size: 14px;
   }
 }

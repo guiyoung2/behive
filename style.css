@@ -237,6 +237,9 @@ header {
     transform: translateX(-85%);
     margin-top: 0 !important;
   }
+  #main_footer > h2 > img {
+    width: 140px !important;
+  }
 }
 @media screen and (max-width: 550px) {
   footer {
