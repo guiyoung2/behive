@@ -238,8 +238,7 @@
     flex-direction: column !important;
     margin-bottom: 80px;
     height: 500px;
-    margin-top: 0;
-    padding-top: 40px;
+    margin-top: 200px;
   }
   .main_top > h2 {
     flex: 1;
