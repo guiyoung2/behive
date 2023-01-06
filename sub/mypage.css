@@ -59,9 +59,6 @@ tbody > tr > td {
 .my_qa > .my_info > table > tbody > tr {
   height: 40px;
 }
-.my_page_area > .my_info > table > tbody > tr > td:nth-of-type(1) {
-  /* text-indent: 20px; */
-}
 .my_qa > .my_info > table > tbody > tr:last-child {
   border-bottom: 2px solid #111;
 }

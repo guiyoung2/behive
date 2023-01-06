@@ -38,9 +38,6 @@
   margin-top: 90px;
   height: 200px;
 }
-.top_rt > .info_txt {
-  /* min-width: 762px; */
-}
 .top_rt > .info_txt > p {
   min-width: 762px;
   line-height: 2em;
@@ -105,10 +102,6 @@
   }
   .main_bt > .photo_area {
     width: 752px;
-  }
-  .photo > h3 {
-    /* font-size: 28px; */
-    /* font-weight: bold; */
   }
   .photo_area > .tt {
     width: 220px;

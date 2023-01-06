@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-/* .main_top {
-  margin: 50px 10% 0;
-  height: 600px;
-} */
 .main_brand_info {
   display: flex;
   justify-content: space-between;
@@ -19,7 +15,7 @@
   margin-bottom: 10px;
   color: #333;
   /* margin: 0; */
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #714e07, 0 0 42px #9f6a01;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #af7b11, 0 0 25px #eba415;
 }
 .newset > {
   margin-right: 6%;
@@ -44,7 +40,7 @@
   color: #333;
   /* margin: 0; */
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px rgb(132, 115, 7),
-    0 0 42px #6a4a08, 0 0 62px #8e5f02;
+    0 0 31px #6a4a08, 0 0 42px #8e5f02;
 }
 .img_wrap {
   padding: 1%;
@@ -211,27 +207,12 @@
     align-items: center;
     gap: 20px;
   }
-  .newest > h3 {
-    /* margin-left: 5%; */
-    /* order: 2; */
-  }
-  .newest > ul {
-    /* order: 1; */
-  }
   .best {
     margin-top: 40px;
-    /* gap: 8px; */
     display: flex;
-    /* justify-content: center; */
   }
   .main_brand_info ul > li:last-child {
     margin-right: 0px;
-  }
-  .best > h3 {
-    /* order: 2; */
-  }
-  .best > ul {
-    /* order: 1; */
   }
   .br {
     display: block !important;

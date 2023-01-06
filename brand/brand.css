@@ -403,7 +403,7 @@
     height: 80px;
   }
 }
-@media screen and (max-width: 534px) and (min-width: 360px) {
+@media screen and (max-width: 534px) and (min-width: 483px) {
   .content {
     width: 70px;
     height: 70px;
@@ -412,6 +412,20 @@
     height: 25px;
     font-size: 10px;
     line-height: 25px;
+    /* display: none; */
+  }
+  .content_bg > img {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 481px) and (min-width: 360px) {
+  .content {
+    width: 70px;
+    height: 70px;
+  }
+  .content > h4 {
+    display: none;
   }
   .content_bg > img {
     width: 70px;
