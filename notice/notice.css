@@ -125,9 +125,9 @@ td {
   }
   .main_top > h2 {
     font-size: 20px;
-    width: 140px;
+    width: 100px;
     height: 40px;
-    background-size: 170px 30px;
+    background-size: 150px 30px;
     line-height: 30px;
   }
   .main_top > .qa {

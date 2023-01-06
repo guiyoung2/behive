@@ -125,9 +125,9 @@ td {
   }
   .main_top > h2 {
     font-size: 20px;
-    width: 120px;
+    width: 100px;
     height: 40px;
-    background-size: 170px 30px;
+    background-size: 140px 30px;
     line-height: 30px;
   }
   .main_top > .notice_sub {

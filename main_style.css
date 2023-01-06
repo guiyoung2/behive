@@ -19,8 +19,7 @@
   margin-bottom: 10px;
   color: #333;
   /* margin: 0; */
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #9f6a01,
-    0 0 82px #9f6a01, 0 0 92px #9f6a01;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #714e07, 0 0 42px #9f6a01;
 }
 .newset > {
   margin-right: 6%;
@@ -44,8 +43,8 @@
   font-weight: 400;
   color: #333;
   /* margin: 0; */
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #9f6a01,
-    0 0 82px #9f6a01, 0 0 92px #9f6a01, 0 0 102px #9f6a01;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px rgb(132, 115, 7),
+    0 0 42px #6a4a08, 0 0 62px #8e5f02;
 }
 .img_wrap {
   padding: 1%;
