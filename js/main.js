@@ -10,11 +10,11 @@ $(function () {
   });
 
   $(document).ready(function () {
-    $(".m_menu > ul > li > a").click(function (event) {
+    $(".m_menu > .m_gnb > li:nth-child(1) > a").click(function (event) {
       event.preventDefault();
       if ($(this).next().css("display") == "none") {
         $(".sub:visible").slideUp();
-        $(".m_menu > ul > li > a").removeClass("active");
+        $(".m_menu > .m_gnb > li > a").removeClass("active");
         $(this).next().slideDown();
         $(this).addClass("active");
       } else {
