@@ -24,12 +24,12 @@
 }
 .main_top {
   /* margin: 50px 10% 0 25%; */
-  margin: 80px 10% 100px;
+  margin: 80px 10% 0;
   height: 600px;
   display: flex;
   justify-content: space-around;
   gap: 10px;
-  /* margin-bottom: 100px; */
+  margin-bottom: 100px;
   /* width: 65%; */
 }
 .img_title {
@@ -243,20 +243,17 @@
     /* margin-bottom: 80px; */
     /* margin-top: 38px; */
     /* display: block; */
-    /* margin: 38px 10% 80px; */
-    margin: 0 10%;
+    margin: 38px 10% 80px;
     /* display: flex; */
     /* flex-direction: column; */
     height: 500px;
   }
   .main_top > h2 {
-    margin-top: 38px;
     flex: 1;
   }
   .img_wrap {
     margin-top: 0 !important;
     flex: 5;
-    margin-bottom: 80px;
   }
   .main_brand_info {
     flex-direction: column !important;
