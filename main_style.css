@@ -26,9 +26,9 @@
   /* margin: 50px 10% 0 25%; */
   margin: 80px 10% 0;
   height: 600px;
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* gap: 10px; */
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
   margin-bottom: 100px;
   /* width: 65%; */
 }
@@ -239,7 +239,7 @@
 
 @media screen and (max-width: 700px) {
   .main_top {
-    /* flex-direction: column !important; */
+    flex-direction: column !important;
     /* margin-bottom: 80px; */
     /* margin-top: 38px; */
     /* display: block; */
