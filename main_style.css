@@ -26,10 +26,9 @@
   /* margin: 50px 10% 0 25%; */
   margin: 80px 10% 0;
   height: 600px;
-  display: flex;
-  justify-content: space-around;
-  gap: 10px;
-  /* flex-wrap: wrap; */
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* gap: 10px; */
   margin-bottom: 100px;
   /* width: 65%; */
 }
@@ -243,10 +242,10 @@
     /* flex-direction: column !important; */
     /* margin-bottom: 80px; */
     /* margin-top: 38px; */
-    display: block;
+    /* display: block; */
     margin: 38px 10% 80px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     height: 500px;
   }
   .main_top > h2 {
