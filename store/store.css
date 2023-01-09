@@ -122,6 +122,9 @@
   }
 }
 @media screen and (max-width: 740px) {
+  .main_area {
+    margin-top: 40px;
+  }
   .txt_info {
     width: 100%;
   }

@@ -101,6 +101,7 @@ td {
 }
 @media screen and (max-width: 700px) {
   .main_top {
+    margin-top: 40px;
     height: 60px;
   }
   .main_bt {

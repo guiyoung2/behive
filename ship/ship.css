@@ -24,10 +24,12 @@
   width: 100%;
   /* height: 340px; */
   height: auto;
+  max-height: 380px;
 }
 .ship_rt > div > img {
   width: 100%;
   /* height: 340px; */
+  max-height: 380px;
   height: auto;
 }
 .ship_rt > div:first-child {
@@ -115,7 +117,7 @@
   .main_area > .ship_lf {
     width: 100% !important;
     height: auto !important;
-    margin: 80px 0 20px;
+    margin: 40px 0 20px;
   }
   .main_area > .ship_rt {
     width: 100% !important;
