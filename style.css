@@ -76,7 +76,7 @@ header {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  color: #333;
+  color: rgb(51, 51, 51);
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 13px #ffe604, 0 0 15px #f8ed91,
     0 0 18px #efedd6, 0 0 21px #ffec43, 0 0 28px #faee7d, 0 0 35px #f7f1b7,
     0 0 40px #f5f1cf;
@@ -125,18 +125,23 @@ header {
   display: block;
   font-size: 18px;
   font-weight: bold;
+  transition: all 0.3s;
 }
 #main_header > .gnb > ul > li:hover > a {
   font-size: 20px !important;
   color: #222;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ede434, 0 0 20px #ede434;
+  /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ede434, 0 0 20px #ede434; */
+  text-shadow: 0 0 30px #ecae63, 0 0 10px rgba(230, 161, 173, 0.41),
+    0 0 100px #e6a1ad, 0 0 500px #f3ad67, 5px 9px 5px rgba(0, 0, 0, 0.5);
 }
 .sub > ul > li:hover > a {
   font-size: 19px;
   /* color: #333; */
   /* text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #6883f9, 0 0 31px #6883fa; */
   color: #000;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ede434, 0 0 20px #ede434;
+  /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ede434, 0 0 20px #ede434; */
+  text-shadow: 0 0 30px #ecae63, 0 0 10px rgba(230, 161, 173, 0.41),
+    0 0 100px #e6a1ad, 0 0 500px #f3ad67, 5px 9px 5px rgba(0, 0, 0, 0.5);
 }
 .menu {
   width: 100px;

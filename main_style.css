@@ -15,7 +15,9 @@
   margin-bottom: 10px;
   color: #333;
   /* margin: 0; */
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 13px #e0a736, 0 0 18px #eeac29;
+  /* text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 13px #e0a736, 0 0 18px #eeac29; */
+  text-shadow: 0 0 30px #ecae63, 0 0 10px rgba(230, 161, 173, 0.41),
+    0 0 100px #e6a1ad, 0 0 500px #f3ad67, 5px 9px 5px rgba(0, 0, 0, 0.5);
 }
 .newset > {
   margin-right: 6%;
@@ -39,8 +41,11 @@
   font-weight: 400;
   color: #333;
   /* margin: 0; */
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 14x rgb(132, 115, 7),
-    0 0 18px #6a4a08, 0 0 22px #8e5f02;
+  /* text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 14x rgb(132, 115, 7), */
+  /* 0 0 22px #6a4a08, 0 0 28px #8e5f02, 0 0 32px #8e5f02; */
+  /* color: #eedde0; */
+  text-shadow: 0 0 30px #ecae63, 0 0 10px rgba(230, 161, 173, 0.41),
+    0 0 100px #e6a1ad, 0 0 500px #f3ad67, 5px 9px 5px rgba(0, 0, 0, 0.5);
 }
 .img_wrap {
   padding: 1%;
@@ -110,8 +115,8 @@
 }
 .main_brand_info ul > li:hover {
   font-size: 22px;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #9f6a01,
-    0 0 82px #9f6a01;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 16px #fff, 0 0 22px #9f6a01,
+    0 0 24px #9f6a01;
   color: #000;
 }
 .main_brand_info ul {
