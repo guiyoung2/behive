@@ -184,6 +184,13 @@
   box-sizing: border-box;
   /* background: rgb(241, 241, 230); */
 }
+body {
+  background: rgb(241, 241, 230);
+}
+header {
+  /* background: #fff; */
+  background: rgb(252, 252, 241);
+}
 @media screen and (max-width: 1151px) and (min-width: 701px) {
   .main_top {
     flex-direction: column !important;
